@@ -3,16 +3,18 @@
 > This project consists to build the page of the website under construction of the Be-ware enterprise.
 
 
-![screenshot](./images/presentation1.png)
+![screenshot](./images/presentation.png)
 
 ## Built With
 
 - HTML,
 - CSS
+- Js
+- JQuery
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/sipe-daniel/Be-ware/23b5f2282b1fa53f99bf5f20dbcabdd6d7aa0716/index.html)
+[Live Demo Link](https://rawcdn.githack.com/sipe-daniel/Be-ware/98bc301c43f4bd38884cd38f17dfb6e2f648cae5/index.html)
 
 
 

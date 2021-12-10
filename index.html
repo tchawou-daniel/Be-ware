@@ -4,11 +4,23 @@
     <head>
         <title>The new web</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script src="js/jquery.countdown.js"></script>
         <link rel="icon" type="image/png" href="images/Logo_beware_icone.png" sizes="32x32">
         <link rel="stylesheet" href="fontawesome/fontawesome-free-5.15.4-web/css/all.min.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.css"> 
+        <script>
+            $(function(){
+              $(".digits").countdown({
+                image: "images/digits.png",
+                format: "dd:hh:mm:ss",
+                endTime: new Date(2021, 12, 2)
+              });
+            });
+          </script>     
     </head>
     <body>
+
         <div id="target">
             <div class="wrapper">
                 <header class="mainheader">
@@ -30,32 +42,13 @@
                             <a href="mailto:adresse@beware.fr">adresse@beware.fr</a>
                         </div>
                     </article>
-    
-            
 
                     <aside class="second-content">
-                        <div class="container-time">
-                            <div class="days backgroud-time">
-                                <div class="time-text">10</div>
-                                <span>Days</span>
-                            </div>
-                            <div class="hours backgroud-time">
-                                <div class="time-text">24</div>
-                                <span>Hours</span>
-                            </div>
-                            <div class="minutes backgroud-time">
-                                <div class="time-text">35</div>
-                                <span>Minutes</span>
-                            </div>
-                            <div class="secondes backgroud-time">
-                                <div class="time-text">10</div>
-                                <span>Seconds</span>
-                            </div>
+                        <div class="container-time" id="clock">
+                            <div class="digits"></div>
                         </div>
-
                     </aside>
                 </section>
-    
             </main>
 
             <div class="wrapper">
@@ -71,6 +64,7 @@
             </div>
 
         </div>
-       
+
     </body>
+
 </html>
