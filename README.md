@@ -3,7 +3,7 @@
 > This project consists to build the page of the website under construction of the Be-ware enterprise.
 
 
-![screenshot](./images/presentation.png)
+![screenshot](./images/presentation1.png)
 
 ## Built With
 
