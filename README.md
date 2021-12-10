@@ -9,6 +9,8 @@
 
 - HTML,
 - CSS
+- Js
+- JQuery
 
 ## Live Demo
 
